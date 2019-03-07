@@ -3,8 +3,8 @@ layout: default
 title: Gaps and Islands
 nav_order: 6
 ---
-
-'''sql
+<div class="code-example" markdown="1">
+```sql
 
 WITH cte_med
 AS
@@ -99,3 +99,5 @@ FROM
         GROUP by
             pat_id
     ) consecutive_meds ON pt.pat_id = consecutive_meds.pat_id
+```
+</div>
