@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Gaps and Islands
+parent: Articles
 nav_order: 6
 ---
 
