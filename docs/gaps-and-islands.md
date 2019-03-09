@@ -4,7 +4,7 @@ title: Gaps and Islands
 nav_order: 6
 ---
 
-# Solving
+# Solving 'Gaps-and-Islands' for Continuous Medication Usage
 {: .no_toc }
 
 ## Contents
