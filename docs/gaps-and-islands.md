@@ -5,8 +5,11 @@ nav_order: 6
 ---
 
 # Solving
+{: .no_toc }
 
 ## Contents
+{: .no_toc }
+
 1. TOC
 {:toc}
 
@@ -50,6 +53,7 @@ VALUES
 ( 'M6789', N'2017-07-27T00:00:00', 5, N'2017-07-31T00:00:00', 2 );
 
 ```
+## Recursively adjust the usage dates of the medication
 
 Next, a recursive CTE is used to find any prescriptions that overlap, changing the start date of the subsequent prescription to be the day after the end date of the previous prescription. This simulates the assumption that the patient exhausts the previous supply before beginning to use the next prescription.
 
@@ -110,6 +114,8 @@ The result of this CTE is an updated list of the medication orders, with revised
 |Z12345	    |2014-11-14	                |30	            |2014-12-13	            |6          |
 |M6789	    |2017-07-22	                |6	            |2017-07-27	            |1          |
 |M6789	    |2017-07-28	                |5	            |2017-08-01	            |2          |
+
+## Identify 'islands' of continuous medication supply
 
 From here, the rest of the problem is a classic gaps-and-islands problems In this case, the goal is to identify the islands and their duration in days. This is solved by a second recursive CTE. The first step is to add a set of columns to store the island start/end dates as the recursion progresses. There are more succint ways to do this than an intermediate CTE, but this is easier to understand.
 
@@ -173,6 +179,8 @@ For this recursive CTE, the anchor is again the first prescription (chronologica
 |Z12345	    |2014-11-14	                |30	            |2014-12-13	            |2014-11-14	    |2014-12-13	|6|
 |M6789	    |2017-07-22	                |6	            |2017-07-27	            |2017-07-22	    |2017-07-27	|1|
 |M6789	    |2017-07-28	                |5	            |2017-08-01	            |2017-07-22	    |2017-08-01	|2|
+
+## Output the results
 
 From here, it is trivial to answer a number of questions about the medication supply for the patient. In this case, the question asked is whether the patient had, at any time, 90 unbroken days of medication supply. Add 1 to the output of the DATEDIFF function to get a true count of medication days.
 
