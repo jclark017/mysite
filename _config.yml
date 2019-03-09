@@ -32,6 +32,9 @@ aux_links:
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
 
+# Disable Search
+search_enabled: nil
+
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
 ga_tracking: UA-135772371-1

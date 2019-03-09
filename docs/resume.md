@@ -20,7 +20,7 @@ nav_order: 1
 ## Summary of Relevant Technical Skills
 Over 13 years of IT development, administration, and leadership building high performing teams that enable healthcare leaders solve the industry’s most challenging problems.
 
-**Applications:** Microsoft SQL Server, BIDS, SSIS, SSAS, SSRS; SAP Business Objects 4.1, Crystal Reports, Xcelsius, Web Intelligence; Epic Systems 2008-2018; Tableau; Cloudera Hue; Sharepoint; ServiceNow<br />**Certifications:** PMI Project Management Professional (PMP); MCTS Microsoft SQL Server: Implementation and Maintenance; Epic Clarity ADT/Prelude, HIM, Hospital Billing, Clinical and Tapestry Data Models; Epic Caboodle Data Model; Epic Cogito Project Manager<br />**Expertise:** Enterprise Project/Program Management; DevOps and Agile SDLC; Change Management; BI/EDW Architecture; EMR/ERP Software Implementation; T-SQL, SSIS, SSAS, .Net C#/VB, Nodejs, R, Hadoop Hive/Impala Development; Activity-Based Costing models
+**Applications:** Microsoft SQL Server, BIDS, SSIS, SSAS, SSRS; SAP Business Objects 4.1, Crystal Reports, Xcelsius, Web Intelligence; Epic Systems 2008-2019; Tableau; Cloudera Hue; Sharepoint; ServiceNow<br />**Certifications:** PMI Project Management Professional (PMP); MCTS Microsoft SQL Server: Implementation and Maintenance; Epic Clarity ADT/Prelude, HIM, Hospital Billing, Clinical and Tapestry Data Models; Epic Caboodle Data Model; Epic Cogito Project Manager<br />**Expertise:** Enterprise Project/Program Management; DevOps and Agile SDLC; Change Management; BI/EDW Architecture; EMR/ERP Software Implementation; T-SQL, SSIS, SSAS, .Net C#/VB, Nodejs, R, Hadoop Hive/Impala Development; Activity-Based Costing models
 
 ## Experience 
 ### Jul 2018 – Present<br />Contra Costa Health - Concorde, CA
