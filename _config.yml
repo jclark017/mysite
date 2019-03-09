@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Docs
-description: A Jekyll theme for documentation
+title: Jeff Clark, MBA PMP
+description: Resume
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jeffclark.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -22,18 +22,15 @@ permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
 # Enable or disable the site search
-search_enabled: true
+search_enabled: nil
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
+  "Linked In":
+    - "//www.linkedin.com/in/jeff-clark-mba-pmp-1508746/"
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
-
-# Disable Search
-search_enabled: nil
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
