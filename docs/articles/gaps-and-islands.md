@@ -194,7 +194,9 @@ from
 group by
 	patient_id
 ```
+
 Output: 
+
 |patient_id	|max_duration|
 |:----------|:-----------|
 |Z12345	    |160|
