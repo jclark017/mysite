@@ -9,6 +9,7 @@ nav_order: 7
 
 svg {
   font: 10px sans-serif;
+  position: absolute;
 }
 
 .y.axis path {
