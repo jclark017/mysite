@@ -73,7 +73,7 @@ var yAxis = d3.svg.axis()
     .tickFormat(function(d) { return Math.round(d / 1e6) + "M"; });
 
 // An SVG element with a bottom-right origin.
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#main-content").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
