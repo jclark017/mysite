@@ -88,7 +88,7 @@ var title = svg.append("text")
     .attr("dy", ".71em")
     .text(2000);
 
-d3.csv("mysite/assets/data/population.csv", function(error, data) {
+d3.csv("https://jeffclark.dev/assets/data/population.csv", function(error, data) {
 
   // Convert strings to numbers.
   data.forEach(function(d) {
