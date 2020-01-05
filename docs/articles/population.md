@@ -1,5 +1,10 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
+---
+layout: default
+title: Population D3
+parent: Articles
+nav_order: 7
+---
+
 <style>
 
 svg {
